@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 
+import MovingDiv from './MovingDiv.js';
 
 class MainComponent extends Component {
   render() {
     return (
       <div>
-        <h2>Hellow world</h2>
+        <MovingDiv />
+        <MovingDiv />
+        <MovingDiv />
+        <MovingDiv />
+        <MovingDiv />
       </div>
     );
   }

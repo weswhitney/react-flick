@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 //import './App.css';
-import MovingDiv from './components/MovingDiv.js';
+import MainComponent from './components/MainComponent.js';
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <MovingDiv />
+        <MainComponent />
       </div>
     );
   }
