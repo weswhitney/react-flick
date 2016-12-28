@@ -11,6 +11,7 @@ class MainComponent extends Component {
         <MovingDiv />
         <MovingDiv />
         <MovingDiv />
+        <MovingDiv />
       </div>
     );
   }
